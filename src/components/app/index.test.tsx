@@ -2,16 +2,11 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from '.';
 
-test('renders learn react link', () => {
+test('renders welcome text', () => {
   render(<App />);
-  const linkElement = screen.getByText(/template in GitHub/i);
+  const welcomeText = screen.getByText(
+    /Welcome to tic-tac-tae. Happy game time!!/i
+  );
 
-  expect(linkElement).toBeInTheDocument();
-});
-
-test('renders my section', () => {
-  render(<App />);
-  const section = screen.getByTestId(/my-section/i);
-
-  expect(section).toBeInTheDocument();
+  expect(welcomeText).toBeInTheDocument();
 });

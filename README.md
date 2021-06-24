@@ -1,4 +1,4 @@
-# React seed
+# Tic-tac-toe
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) with typescript template.
 #### It includes:
@@ -8,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. Material UI framework for CSS.
 5. Axios for HTTP client.
 6. Jest for testing.
+7. Lodash for JS utilities.
 
 ## Available Scripts
 
